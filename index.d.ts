@@ -1,4 +1,4 @@
-declare module 'react-native-mathjax-html-to-svg' {
+declare module '@hurshore/react-native-mathjax-html-to-svg' {
   import { StyleProp, ViewStyle } from 'react-native';
 
   type Props = {
