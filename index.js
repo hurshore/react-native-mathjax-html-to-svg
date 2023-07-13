@@ -150,7 +150,7 @@ const GenerateTextComponent = ({
         />
       ) : item.children?.length ? (
         item.children.map((subItem, subIndex) => {
-          if (textProps.numberOfLines && subIndex >= textProps.numberOfLines)
+          if (textProps?.numberOfLines && subIndex >= textProps.numberOfLines)
             return null;
           return (
             <GenerateTextComponent
